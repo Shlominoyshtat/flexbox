@@ -1,0 +1,17 @@
+
+
+main{
+    background-color: yellow;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.m{
+    background-color: aqua;
+    width: 100px;
+}
