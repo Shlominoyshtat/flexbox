@@ -1,17 +1,27 @@
-
-
-main{
-    background-color: yellow;
-    width: 500px;
-    height: 150px;
+header{
     display: flex;
-    justify-content: center;
-    align-items: space-around;
-    gap: 100px;
-    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-
-.m{
-    background-color: aqua;
-    width: 100px;
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+}
+#time{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80%;
+    /* background-color: aquamarine;
+    height: 90vh;
+    justify-content: center;
+    align-items: center; */
 }
